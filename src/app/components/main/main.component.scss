@@ -1,0 +1,48 @@
+.main-screen {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    .app {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+        font-size: 25px;
+
+        &:hover {
+            cursor: pointer;
+        }
+        
+        &.chat {
+            background: #5078cf;
+
+            &:hover {
+                background: #3f61a8;
+            }
+            
+            &:active {
+                background: #324d88;
+            }
+        }
+        
+        &.call {
+            background: rgb(255,255,255);
+            background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(175,255,175,1) 15%, rgba(168,255,168,1) 26%, rgba(130,251,130,1) 47%, rgba(0,255,0,1) 100%);
+            
+            &:hover {
+                background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(136, 202, 136) 15%, rgb(136, 205, 136) 26%, rgb(110, 212, 110) 47%, rgb(0, 209, 0) 100%);
+            }
+
+            &:active {
+                background: radial-gradient(circle, rgb(200, 200, 200) 0%, rgb(111, 165, 111) 15%, rgb(116, 174, 116) 26%, rgb(93, 178, 93) 47%, rgb(0, 168, 0) 100%);
+            }
+        }
+    }
+}
