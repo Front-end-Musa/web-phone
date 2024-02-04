@@ -25,6 +25,6 @@ export class AppComponent {
   OpenApp(component: Component): void {
     if (this.mainScreen != null) {
       // this.mainScreen.innerHTML = component
-  }
+    }
   }
 }
