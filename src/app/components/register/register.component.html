@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="form_wrapper">
+        <form action="" class="register-form" id="register-form" [formGroup]="registerForm">
+            <div>
+                <label for="mail">Email</label>
+                <input type="text" id="mail" formControlName="mail" placeholder=" " >
+            </div>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder=" ">
+            </div>
+            <div>
+                <label for="password_one">Password</label>
+                <input type="password" id="password_one" formControlName="password_one" placeholder=" ">
+            </div>
+            <div>
+                <label for="password_two">Confirm password</label>
+                <input type="password" id="password_two" formControlName="password_two" placeholder=" ">
+            </div>
+            <button type="submit" class="submit-btn">
+                Save
+            </button>
+        </form>
+    </div>
+</div>

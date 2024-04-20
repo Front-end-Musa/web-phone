@@ -1,0 +1,18 @@
+<div class="call-screen">
+    <a href="/" class="back"><i class="ri-arrow-left-line"></i></a>
+    <input type="text" class="output" id="output">
+    <div class="numbers">
+        <button class="one button" id="one number" (click)="addNumber(1)">1</button>
+        <button class="two button" id="two number" (click)="addNumber(2)">2</button>
+        <button class="three button" id="three number" (click)="addNumber(3)">3</button>
+        <button class="four button" id="four number" (click)="addNumber(4)">4</button>
+        <button class="five button" id="five number" (click)="addNumber(5)">5</button>
+        <button class="six button" id="six number" (click)="addNumber(6)">6</button>
+        <button class="seven button" id="seven number" (click)="addNumber(7)">7</button>
+        <button class="eight button" id="eight number" (click)="addNumber(8)">8</button>
+        <button class="nine button" id="nine number" (click)="addNumber(9)">9</button>
+        <button class="delete button" id="delete-button" (click)="popNumber()"><i class="ri-delete-back-2-line"></i></button>
+        <button class="zero button" id="zero number" (click)="addNumber(0)" (dblclick)="logPlusInsteadOfZero()">0</button>
+        <div class="call button" id="call-button"><i class="ri-phone-fill"></i></div>
+    </div>
+</div>
